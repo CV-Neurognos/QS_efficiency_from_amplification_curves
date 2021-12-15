@@ -2,12 +2,17 @@
 library(qpcR)
 library(readr)
 
-############ IMPORT QS FILE #######################
+############ IMPORT QS FILE & FORMAT #######################
+# Input QS RAW and RESULTS .csv
+
 mergefile <- "n37_Results_20211214 154916.csv"
 df <- read_csv("n37_Raw Data_20211214 154916.csv", skip = 22)
+
+# transform columns into valid names
 colnames(df) <- make.names(colnames(df))
 df <- transform(df, X1_M1 = as.numeric(X1_M1))
 
+############ PROCESS DATA #######################
 #1. select Wells(samples)
 #2. sort fluorescence channel by cycle
 
@@ -17,6 +22,7 @@ df.result <- data.frame(well = character(),
                  rsq=double(),
                  stringsAsFactors=FALSE)
 
+# get linearity window of each amplification curve. 
 
 for(i in unique.wells){
   tryCatch(
