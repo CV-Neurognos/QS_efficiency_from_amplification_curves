@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GraphPadPrismFile xmlns="http://graphpad.com/prism/Prism.htm" PrismXMLVersion="5.00">
+<Created>
+<OriginalVersion CreatedByProgram="GraphPad Prism" CreatedByVersion="8.4.3.686" Login="Valls-testedDX" DateTime="2021-12-14T16:35:30-04:00"/>
+</Created>
+<InfoSequence>
+<Ref ID="Info0" Selected="1"/>
+</InfoSequence>
+<Info ID="Info0">
+<Title>Project info 1</Title>
+<Notes/>
+<Constant><Name>Experiment Date</Name><Value>2021-12-14</Value></Constant>
+<Constant><Name>Experiment ID</Name><Value/></Constant>
+<Constant><Name>Notebook ID</Name><Value/></Constant>
+<Constant><Name>Project</Name><Value/></Constant>
+<Constant><Name>Experimenter</Name><Value/></Constant>
+<Constant><Name>Protocol</Name><Value/></Constant>
+</Info>
+
+<TableSequence>
+
+<Ref ID="Table1" Selected="1"/>
+</TableSequence>
+<Table ID="Table1" XFormat="date" YFormat="replicates" Replicates="1" TableType="XY" EVFormat="AsteriskAfterNumber">
+<Title>hsa-let-7d-3p</Title>
+<FloatingNote ID="Sticky2" Auto="0" Color="Yellow" Left="1186" Top="115" Width="618" Height="379" ScrWidth="1536" ScrHeight="864" ScrDPI="120">
+<WebLink Flags="0" ToolTip="@help:dates2.htm" URL="@help:dates2.htm">
+Learn more about entering and plotting dates
+</WebLink>
+
+<B><Font Size="11" Color="#000000" Face="Verdana">ow to set up the table for entry of dates?</Font></B>
+<Font Size="11" Color="#000000" Face="Verdana"><BR/>It is a choice  (new to Prism 7) on the Welcome and New Table dialogs. </Font>
+<B><Font Size="11" Color="#000000" Face="Verdana"><BR/><BR/>What format to enter dates?</Font></B>
+<Font Size="11" Color="#000000" Face="Verdana"><BR/>Enter any format, and Prism will convert to a standard format (that you can't change). The only ambiguity is when you enter dates like "1-2-2014". The bottom of the View tab in Preferences lets you tell Prism if this means Jan. 2 or Feb. 1. </Font>
+<B><Font Size="11" Color="#000000" Face="Verdana"><BR/><BR/>What happens if I analyze these data?</Font></B>
+<Font Size="11" Color="#000000" Face="Verdana"><BR/>Prism converts to elapsed time from a starting date. Choose the starting date and units by using  Format Data Table command from Change menu. </Font>
+</FloatingNote>
+
+<FloatingNote ID="Sticky4" Auto="1" Color="Gray" Left="670" Top="-366" Width="792" Height="83" ScrWidth="1536" ScrHeight="864" ScrDPI="120">
+
+<Font Size="10" Color="#000000" Face="Arial">When you analyze or graph these data, the X values will be the number of days after the date in row one.<BR/>To change the units or starting date, drop the  Change menu and choose Format Data Table.</Font>
+</FloatingNote>
+
+<XColumn Width="114" Subcolumns="1" Decimals="15">
+<Title/>
+<Subcolumn/>
+</XColumn>
+<XAdvancedColumn Version="1" Width="114" Decimals="15" Subcolumns="1">
+<Title/>
+<Subcolumn/>
+</XAdvancedColumn>
+<YColumn Width="164" Decimals="14" Subcolumns="1">
+<Title>Weight (pounds)</Title>
+<Subcolumn>
+<d>1.03362114006367</d>
+<d>1.08425116120818</d>
+<d>1.0733951663577</d>
+<d>1.08823942209395</d>
+<d>1.08830168036372</d>
+<d>1.08086713327901</d>
+<d>1.06596189445707</d>
+<d>1.02301977608672</d>
+<d>1.06782602057871</d>
+<d>1.04956136991086</d>
+<d>1.054009493746</d>
+<d>1.04919988885869</d>
+<d>1.06974081103707</d>
+<d>1.07732395013596</d>
+<d>1.06941743275871</d>
+<d>1.05507484132787</d>
+<d>1.07952850012541</d>
+<d>1.00150700631367</d>
+<d>1.03081723890541</d>
+<d>1.02955203627976</d>
+<d>1.06368246172786</d>
+<d>1.05176377070739</d>
+<d>1.0823953014471</d>
+<d>1.07097045038842</d>
+<d>1.0620032034119</d>
+<d>1.06835536837441</d>
+<d>1.07669266312031</d>
+<d>1.0857053854392</d>
+</Subcolumn>
+</YColumn>
+</Table>
+
+<!--Analyses, graphs and layouts as compressed binary. Don't edit this part of the file.-->
+
+<Template xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">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
+39s3pSb8tXJa4kf9xz9tbWvYOKN1b8SzVcsyY3aObG2qsz1m+ue50rU/e8rUdmqHJ9tw8OKq
+kn9OmX3gk4S8v2y+//COvWnZe0oKJ367cde83K1/+GDxnnntW77T39x/pmHv8NTv7OyJh1bN
+FrZ9Ma058737G9b9NiupuXrbM8fZ23836J03H3j2pUHt+47dfqSRz/7AXHeo4N7SLw/fU7ew
+LGfHqr45hTvG/HTKk1m/K77z5YnDrl/38vu9zkf8+HVn7d3Tts+8/VjhpNqp1T+ZlZj4ydeF
+v9iyYsQTn//PM0vP9N35XNzm1z7PXLvmc0dq6gMvHlm2reHno1tf6JW09aXKt1KWJrx44O5j
+fcZt/XDnm68sLyhy1Kb3nXG/YdsbA3dnNx7Z+MWMB1vb2rJWnV24IXHWpg83v2+/8cSE2tUb
+Nu0wvM1HXjTcdXxjUYHgKonls73iq6pmPE2fXOF+QCj2cE7XHDeXASwgBdaNKToAJukvYQ7/
+nngU/aRIH/0sVyYDxoBo5dFy8bnwosC46vlChbNccHm4PIdHAG688p2ROWxYZnpmhhSdwdGj
+/KNPyIORGTVNFkdCi4l3uj1Ckds9r1MUHY5iUrXrf1uPb0f6sREq/ONE4DhmMQmPu9hd5n/f
+gO/jACn8UdAfKF9DRY1szp7du28Juj6oHF3I5nXo7zUB32WC4f8FAAD//wMAjUIwcg==</Template></GraphPadPrismFile>
