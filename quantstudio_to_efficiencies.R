@@ -5,8 +5,8 @@ library(readr)
 ############ IMPORT QS FILE & FORMAT #######################
 # Input QS RAW and RESULTS .csv
 
-mergefile <- "n37_Results_20211214 154916.csv"
-df <- read_csv("n37_Raw Data_20211214 154916.csv", skip = 22)
+mergefile <- "n61_Results_20211215 104838.csv"
+df <- read_csv("n61_Raw Data_20211215 104838.csv", skip = 22)
 
 # transform columns into valid names
 colnames(df) <- make.names(colnames(df))
@@ -61,7 +61,6 @@ results_to_merge <- read_csv(mergefile, skip = 22)
 results_to_merge <- results_to_merge[,c("Well Position","Target")]
 
 output <- merge.data.frame(x = df.result , y = results_to_merge , by.x = "well" , by.y = "Well Position" )
-
-write.csv(output, "n37_efficiency.csv" , sep = ",")
+#write.csv(output, "n37_efficiency.csv" , sep = ",")
 
 
